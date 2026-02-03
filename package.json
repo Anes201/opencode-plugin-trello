@@ -37,11 +37,14 @@
     "LICENSE"
   ],
   "peerDependencies": {
-    "@opencode/sdk": "^1.0.0"
+    "@opencode-ai/sdk": "^1.1.48",
+    "@opencode-ai/plugin": "^1.1.48"
   },
   "devDependencies": {
-    "@opencode/sdk": "^1.0.0",
-    "@types/node": "^20.0.0",
-    "typescript": "^5.0.0"
+    "@opencode-ai/sdk": "^1.1.48",
+    "@opencode-ai/plugin": "^1.1.48",
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2",
+    "zod": "^3.24.1"
   }
 }

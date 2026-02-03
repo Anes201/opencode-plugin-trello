@@ -1,0 +1,47 @@
+{
+  "name": "opencode-plugin-trello",
+  "version": "1.0.0",
+  "description": "Full Trello integration for OpenCode - manage your Trello cards, lists, and boards directly from OpenCode interface",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "trello",
+    "task-management",
+    "kanban",
+    "productivity"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/opencode-plugin-trello.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/opencode-plugin-trello/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/opencode-plugin-trello#readme",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint src --ext .ts",
+    "test": "echo \"No tests yet\""
+  },
+  "files": [
+    "dist",
+    "plugin",
+    "command",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@opencode/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@opencode/sdk": "^1.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

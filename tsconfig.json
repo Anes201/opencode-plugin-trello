@@ -1,0 +1,25 @@
+{
+  "extends": "@opencode/sdk/tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./plugin",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ES2020"
+  },
+  "include": [
+    "plugin/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
